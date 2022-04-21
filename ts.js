@@ -1,5 +1,5 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['eslint-config-rookie/ts'],
+  extends: ['@tencent/eslint-config-tencent/ts'],
   plugins: ['@typescript-eslint'],
 };

@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-light",
-  "version": "1.0.2",
+  "name": "@tencent/eslint-config-light",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,12 @@
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-react": "^7.14.5",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
-    "eslint-config-rookie": "^1.0.0",
+    "@tencent/eslint-config-tencent": "^0.16.0",
     "eslint-plugin-jest": "^24.5.2",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",

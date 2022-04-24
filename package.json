@@ -8,7 +8,6 @@
     "lint:fix": "eslint --fix --ext .js,.vue ."
   },
   "dependencies": {
-    "@babel/core": "^7.17.9",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-react": "^7.14.5",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
@@ -22,5 +21,8 @@
     "vue-eslint-parser": "^7.10.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9"
+  }
 }

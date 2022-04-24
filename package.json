@@ -23,11 +23,17 @@
     "vue-eslint-parser": "^7.10.0"
   },
   "author": "guowangyang",
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix"
+    ]
+  },
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
     "standard-version": "^9.3.2"
   }
 }

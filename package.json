@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue .",
     "lint:fix": "eslint --fix --ext .js,.vue .",
+    "prepare": "husky install",
     "release": "standard-version"
   },
   "dependencies": {
@@ -24,7 +25,7 @@
   },
   "author": "guowangyang",
   "lint-staged": {
-    "*.{js}": [
+    "*.js": [
       "eslint --fix"
     ]
   },

@@ -8,4 +8,13 @@ module.exports = {
     'plugin:import/recommended',
   ],
   settings: importSettings,
+  rules: {
+    'import/no-unresolved': [2,
+      {
+        ignore: [
+          'node_modules',
+        ],
+      },
+    ],
+  },
 };

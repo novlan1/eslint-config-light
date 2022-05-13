@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/novlan1/eslint-config-light/compare/v1.0.5...v1.1.0) (2022-05-13)
+
+
+### Features
+
+* 引入commitlint ([3d3180b](https://github.com/novlan1/eslint-config-light/commit/3d3180ba5653219cee1e0d84eadc0615cf318918))
+* 引入lint-staged ([a932e13](https://github.com/novlan1/eslint-config-light/commit/a932e1358bfc67e30f25fc901e0fb2e7fb7135e1))
+* 引入standard-version ([ceea537](https://github.com/novlan1/eslint-config-light/commit/ceea5375ab24de57a6edd5e323f50f6b20bac419))
+* add import plugin ([fe215fe](https://github.com/novlan1/eslint-config-light/commit/fe215fe938aa9103a03f15548dfebbc68631d3e7))
+
 ### 1.0.5 (2022-04-24)
 
 

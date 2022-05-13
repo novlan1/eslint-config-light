@@ -13,6 +13,7 @@ module.exports = {
       {
         ignore: [
           'node_modules',
+          '@TIP_PLATFORM_NAME(\\.js)?$',
         ],
       },
     ],

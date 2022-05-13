@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/novlan1/eslint-config-light/compare/v1.1.1...v1.2.0) (2022-05-13)
+
+
+### Features
+
+* 升级包 ([c4f2458](https://github.com/novlan1/eslint-config-light/commit/c4f24586960a4b17c3412003ae77c4e121fd0de6))
+
 ### [1.1.1](https://github.com/novlan1/eslint-config-light/compare/v1.1.0...v1.1.1) (2022-05-13)
 
 ## [1.1.0](https://github.com/novlan1/eslint-config-light/compare/v1.0.5...v1.1.0) (2022-05-13)

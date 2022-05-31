@@ -1,6 +1,6 @@
 {
   "name": "@tencent/eslint-config-light",
-  "version": "1.4.1",
+  "version": "1.4.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "eslint-plugin-jest": "^26.2.2",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-vue": "^7.18.0",
-    "vue-eslint-parser": "^7.10.0"
+    "eslint-plugin-vue": "^9.0.1",
+    "vue-eslint-parser": "^9.0.2"
   },
   "author": "guowangyang",
   "lint-staged": {

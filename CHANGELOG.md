@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/novlan1/eslint-config-light/compare/v1.4.0...v1.5.0) (2022-06-08)
+
+
+### Features
+
+* 配置vue的eslint的es版本，解决报错 ([d771d59](https://github.com/novlan1/eslint-config-light/commit/d771d5946d698ef5ad499e7ae3b51bd6e6e41ee7))
+
 ## [1.4.0](https://github.com/novlan1/eslint-config-light/compare/v1.3.0...v1.4.0) (2022-05-13)
 
 

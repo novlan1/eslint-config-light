@@ -1,6 +1,6 @@
 {
   "name": "@tencent/eslint-config-light",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "",
   "main": "index.js",
   "scripts": {

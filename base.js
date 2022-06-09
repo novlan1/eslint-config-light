@@ -19,6 +19,7 @@ module.exports = {
   },
   settings: importSettings,
   rules: {
+    'no-empty': 0,
     'import/no-unresolved': [2,
       {
         ignore: [

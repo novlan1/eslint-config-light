@@ -5,4 +5,7 @@ module.exports = {
     ecmaVersion: 2022,
     sourceType: 'module',
   },
+  rules: {
+    'vue/multi-word-component-names': 0,
+  },
 };

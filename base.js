@@ -7,12 +7,23 @@ module.exports = {
     '@tencent/eslint-config-tencent',
     'plugin:import/recommended',
   ],
+  globals: {
+    app: true,
+    need: true,
+    uni: true,
+    VConsole: true,
+    wx: true,
+    emonitor: true,
+    globalVars: true,
+    $: true,
+  },
   settings: importSettings,
   rules: {
     'import/no-unresolved': [2,
       {
         ignore: [
           'node_modules',
+          '^@/*',
           '@TIP_PLATFORM_NAME(\\.js)?$',
         ],
       },

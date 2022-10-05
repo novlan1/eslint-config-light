@@ -9,42 +9,42 @@ module.exports = {
     {
       files: ['*.js'],
       excludedFiles: ['*.test.js', '*.spec.js'],
-      extends: ['./base.js'],
+      extends: ['./lib/base.js'],
     },
     {
       files: ['*.ts'],
       excludedFiles: ['*.test.ts', '*.spec.ts'],
-      extends: ['./base.js', './ts.js'],
+      extends: ['./lib/base.js', './lib/ts.js'],
     },
     {
       files: ['*.test.js', '*.spec.js'],
-      extends: ['./base.js', './jest.js'],
+      extends: ['./lib/base.js', './lib/jest.js'],
     },
     {
       files: ['*.test.ts', '*.spec.ts'],
-      extends: ['./base.js', './ts.js', './jest.js'],
+      extends: ['./lib/base.js', './lib/ts.js', './lib/jest.js'],
     },
     {
       files: ['*.jsx'],
       excludedFiles: ['*.test.jsx', '*.spec.jsx'],
-      extends: ['./react.js', './base.js'],
+      extends: ['./lib/react.js', './lib/base.js'],
     },
     {
       files: ['*.tsx'],
       excludedFiles: ['*.test.tsx', '*.spec.tsx'],
-      extends: ['./react.js', './base.js', './ts.js'],
+      extends: ['./lib/react.js', './lib/base.js', './lib/ts.js'],
     },
     {
       files: ['*.test.jsx', '*.spec.jsx'],
-      extends: ['./react.js', './jest.js', './base.js'],
+      extends: ['./lib/react.js', './lib/jest.js', './lib/base.js'],
     },
     {
       files: ['*.test.tsx', '*.spec.tsx'],
-      extends: ['./react.js', './jest.js', './base.js', './ts.js'],
+      extends: ['./lib/react.js', './lib/jest.js', './lib/base.js', './lib/ts.js'],
     },
     {
       files: ['*.vue'],
-      extends: ['./base.js', './vue.js'],
+      extends: ['./lib/base.js', './lib/vue.js'],
     },
   ],
 };

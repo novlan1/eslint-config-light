@@ -1,8 +1,21 @@
 {
   "name": "eslint-config-light",
   "version": "1.0.6",
-  "description": "",
+  "description": "开箱即用的eslint配置",
   "main": "index.js",
+  "sideEffects": "false",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novlan1/eslint-config-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/novlan1/eslint-config-light/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/novlan1/eslint-config-light#readme",
   "scripts": {
     "lint": "eslint --ext .js,.vue .",
     "lint:fix": "eslint --fix --ext .js,.vue .",
@@ -10,11 +23,18 @@
     "release-patch": "standard-version --release-as patch",
     "release": "npm run release-patch && git push --follow-tags origin master && npm publish"
   },
+  "license": "ISC",
   "files": [
     "README.md",
     "CHANGELOG.md",
     "index.js",
     "lib"
+  ],
+  "author": "guowangyang",
+  "keywords": [
+    "eslint-config-light",
+    "eslint",
+    "eslint-config"
   ],
   "dependencies": {
     "@babel/core": "^7.17.9",
@@ -32,13 +52,11 @@
     "eslint-plugin-vue": "^9.0.1",
     "vue-eslint-parser": "^9.0.2"
   },
-  "author": "guowangyang",
   "lint-staged": {
     "*.js": [
       "eslint --fix"
     ]
   },
-  "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",

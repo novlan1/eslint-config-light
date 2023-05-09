@@ -52,6 +52,7 @@ TypeError: Failed to load plugin '@typescript-eslint' declared in '.eslintrc.jso
 ### 2.3. 与业务库的冲突
 
 下面是用本插件的经验。
+
 业务库可以删除以下依赖，以及`package-lock.json`，然后重新`npm install`。
 
 ```

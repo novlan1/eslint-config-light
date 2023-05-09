@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-light",
-  "version": "1.0.7",
+  "version": "1.4.6",
   "description": "开箱即用的eslint配置",
   "main": "index.js",
   "sideEffects": "false",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novlan1/eslint-config-light.git"
+    "url": "https://github.com/novlan1/eslint-config-light"
   },
   "bugs": {
     "url": "https://github.com/novlan1/eslint-config-light/issues"
@@ -40,10 +40,10 @@
     "@babel/core": "^7.17.9",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-react": "^7.14.5",
+    "eslint-config-rookie": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.13.0",
-    "eslint-config-rookie": "^1.0.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.2.2",
@@ -62,7 +62,6 @@
     "@commitlint/config-conventional": "^16.2.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.0",
-    "np": "^7.6.2",
     "standard-version": "^9.3.2"
   }
 }

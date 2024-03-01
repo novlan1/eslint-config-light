@@ -64,5 +64,33 @@ babel-eslint
 @typescript-eslint/parser
 ```
 
+### 2.4. 搭配 eslint-plugin-light
+
+如果想同时使用 `eslint-plugin-light` 插件，需要这样配置：
+
+```js
+module.exports = {
+  root: true,
+  extends: ['plugin:@tencent/light/recommended', 'eslint-config-light'],
+}
+```
+
+注意顺序，`eslint-plugin-light` 插件在前，`eslint-config-light` 扩展在后。否则会报错：
+
+```
+Error: Error while loading rule '@typescript-eslint/dot-notation': 
+You have used a rule which requires parserServices to be generated. 
+You must therefore provide a value for the "parserOptions.project" 
+property for @typescript-eslint/parser.
+```
 
 
+## 3. 发布
+
+不需要手动升版本，执行以下命令：
+
+```bash
+npx standard-version --release-as patch
+
+npm publish
+```

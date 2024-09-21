@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-light-vue3",
-  "version": "0.0.5",
+  "version": "0.1.6",
   "description": "开箱即用的eslint配置",
   "main": "index.js",
   "sideEffects": "false",

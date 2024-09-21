@@ -1,5 +1,6 @@
 # eslint-config-light
 
+开箱即用的 Eslint 配置，适用于 Vue2 项目。
 
 ## 1. 如何使用
 
